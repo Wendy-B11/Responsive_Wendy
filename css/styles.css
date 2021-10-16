@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', serif;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+
+ }
+
+.bg_img{
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100%;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.tittle, .text, .text2{
+  font-weight: bold;
+  left: 928px;
+  width: 384px;
+  height: 29px;
+  letter-spacing: 0.3px;
+  color: #272727;
+  opacity: 1;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.text{
+  font-weight: normal;
+  height: 46px;
+  letter-spacing: 0.26px;
+  color: #272727D9;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.text2{
+  font-weight: normal;
+  left: 931px;
+  width: 380px;
+  height: 18px;
+  margin-top: 100px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.contenedor{
+  position: absolute;
+  margin:0;
+  padding: 20px;
+  top: 11%;
+  background-color: white;
+  border-radius:20px; 
+
+}
+
+.holder{
+    width: 384px;
+    height: 56px;
+    background: var(--unnamed-color-f5f6f8) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-dedede);
+    background: #F5F6F8 0% 0% no-repeat padding-box;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    opacity: 1;
+    color:#27272766;
+    letter-spacing: 0.9px;
+    margin-top: 20px;  
+}
+.holder:hover{
+  border-color: blue;
+}
+.button{
+  margin-top: 20px;
+  width: 185px;
+  height: 50px;
+  background-color: #470E92;
+  letter-spacing: 0.3px;
+  color:white;
+}
+
+
+.labels{
+  color: #470E92;
+  letter-spacing: 0.5px;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px){
+    .contenedor{
+        left: 60%;
+            }
+}
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        width: 100%;
+        padding-top: 0px;
+        top:50%;
+            }
+    .text{
+
+        visibility:hidden !important;
+        display:none !important;
+
+    }
+    .tittle{
+    position: relative;
+    margin-bottom: 0px;
+    top: -70px;
+    left: 83px;
+    color: white;
+    font-size: 25px;
+  }
+   .text2{
+    margin-top: 15px;
+    font-size: 13px;
+    width: 320px;
+   }
+   .button{
+    width: 325px;
+}
+input{
+  width: 325px;
+}
+.holder{
+  width: 325px;
+}
+.labels{
+  margin-top: 0px;
+}
+.bg_img{
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100%;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+}
+
